@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bbangbbangtel.github.io/bbangbbangtel/sitemap.xml
+Sitemap: https://bbangbbangtel.github.io/sitemap.xml
