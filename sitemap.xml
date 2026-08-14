@@ -2,76 +2,26 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/</loc>
-  </url>
+  <url><loc>https://bbangbbangtel.github.io/</loc></url>
 
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/galaxy.html</loc>
-  </url>
+  <url><loc>https://bbangbbangtel.github.io/galaxy.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/iphone.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/prepaid.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/mvno.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/usedphone.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/news.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/store.html</loc></url>
 
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/iphone.html</loc>
-  </url>
+  <url><loc>https://bbangbbangtel.github.io/guide/</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/guide/public-subsidy.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/guide/selection-discount.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/guide/number-portability.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/guide/device-change.html</loc></url>
 
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/prepaid.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/mvno.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/usedphone.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/news.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/store.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/guide/</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/guide/public-subsidy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/guide/selection-discount.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/guide/number-portability.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/guide/device-change.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/gwangju/</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/gwangju/suwan.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/gwangju/cheomdan.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/gwangju/hanam.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bbangbbangtel.github.io/bbangbbangtel/gwangju/unnam.html</loc>
-  </url>
+  <url><loc>https://bbangbbangtel.github.io/gwangju/</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/gwangju/suwan.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/gwangju/cheomdan.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/gwangju/hanam.html</loc></url>
+  <url><loc>https://bbangbbangtel.github.io/gwangju/unnam.html</loc></url>
 
 </urlset>
