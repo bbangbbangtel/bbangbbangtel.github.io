@@ -71,14 +71,46 @@ footer .footer-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:30px}
 footer a{color:#dbe6fb}
 footer small{color:#7f8da8}
 .footer-bottom{border-top:1px solid #24304a;margin-top:26px;padding-top:18px}
+.review-summary{display:flex;align-items:center;gap:22px;background:linear-gradient(135deg,#13234b,#1767ff);color:#fff;border-radius:22px;padding:24px 28px;margin-bottom:24px}
+.review-score{font-size:44px;font-weight:950;line-height:1}
+.review-stars{color:#ffd54a;letter-spacing:2px;font-size:20px}
+.review-summary p{margin:4px 0 0;color:#dce8ff}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.review-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 6px 18px rgba(18,36,74,.04)}
+.review-card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:14px}
+.review-card .stars{color:#ffb300;letter-spacing:1px;font-size:17px;white-space:nowrap}
+.review-card h3{margin:0 0 10px;font-size:18px}
+.review-card p{color:#4f5b70;margin:0;white-space:pre-line}
+.review-meta{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0 0}
+.review-meta span{background:#f1f5fb;color:#42506a;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:750}
+.review-writer{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:13px}
+.review-toolbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:22px}
+.filter-btn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;font-weight:750;color:#4b5870;cursor:pointer}
+.filter-btn.active{background:var(--brand);border-color:var(--brand);color:#fff}
+.review-form{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px}
+.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}
+.field.full{grid-column:1/-1}
+.field label{display:block;font-weight:800;margin-bottom:7px}
+.field input,.field select,.field textarea{width:100%;border:1px solid #dbe2ed;border-radius:12px;padding:12px 13px;font:inherit;background:#fff;color:var(--text)}
+.field textarea{min-height:150px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid #dce9ff;border-color:var(--brand)}
+.form-help{font-size:13px;color:var(--muted);margin-top:6px}
+.form-status{display:none;margin-top:16px;padding:14px 16px;border-radius:12px;font-weight:750}
+.form-status.show{display:block}.form-status.success{background:#ecfbf6;color:#087e6d}.form-status.error{background:#fff0f0;color:#b42318}
+.empty-state{text-align:center;background:#fff;border:1px dashed #cbd5e4;border-radius:18px;padding:46px 20px;color:var(--muted)}
+.admin-panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;margin-bottom:22px}
+.pending-list{display:grid;gap:12px}.pending-item{border:1px solid var(--line);border-radius:15px;padding:16px}.pending-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.btn.danger{color:#b42318;border-color:#ffc9c5}.btn.small{padding:8px 12px;font-size:13px;cursor:pointer}
 @media(max-width:900px){
  .navlinks{display:none;position:absolute;left:18px;right:18px;top:72px;background:white;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow);flex-direction:column;align-items:flex-start}
  .navlinks.open{display:flex}.menu-btn{display:block}
  .hero-grid,.content-wrap{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}
+ .review-grid{grid-template-columns:repeat(2,1fr)}
  .area-grid{grid-template-columns:repeat(2,1fr)}.sidebar{display:none}
 }
 @media(max-width:600px){
  .container{width:min(100% - 24px,1180px)}.hero{padding:54px 0 42px}
- .cards,.article-list{grid-template-columns:1fr}.callout{align-items:flex-start;flex-direction:column}
+ .cards,.article-list,.review-grid,.form-grid{grid-template-columns:1fr}.callout{align-items:flex-start;flex-direction:column}
+ .review-summary{align-items:flex-start;flex-direction:column;gap:10px}.field.full{grid-column:auto}.review-form{padding:20px}
  footer .footer-grid{grid-template-columns:1fr}.hero-panel{padding:18px}
 }

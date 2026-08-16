@@ -3,6 +3,16 @@ const nav = document.querySelector('.navlinks');
 
 if (btn && nav) {
   btn.addEventListener('click', () => nav.classList.toggle('open'));
+
+  // 모든 페이지의 공통 메뉴에 고객후기 링크 자동 추가
+  if (!nav.querySelector('a[href$="reviews.html"]')) {
+    const reviewLink = document.createElement('a');
+    const inSubfolder = location.pathname.includes('/guide/') || location.pathname.includes('/gwangju/');
+    reviewLink.href = inSubfolder ? '../reviews.html' : 'reviews.html';
+    reviewLink.textContent = '고객후기';
+    const ctaLink = nav.querySelector('.cta');
+    nav.insertBefore(reviewLink, ctaLink || null);
+  }
 }
 
 document.querySelectorAll('[data-year]').forEach(

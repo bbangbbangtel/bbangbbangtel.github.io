@@ -26,6 +26,9 @@ window.BUSINESS_CONFIG = {
   websiteUrl: "https://bbangbbangtel.github.io/",
 
   // 대표 공유 이미지
-  ogImage: "https://bbangbbangtel.github.io/assets/og-image.png"
+  ogImage: "https://bbangbbangtel.github.io/assets/og-image.png",
+
+  // Google Apps Script 배포 후 생성되는 /exec 주소
+  reviewApiUrl: "https://script.google.com/macros/s/AKfycbwGXp9cYdyafYLzeEgqhmut1X_M8jYN3KojGrSd-isNoMl57fXXzlfJWChWdtxCK7E/exec"
 
 };
