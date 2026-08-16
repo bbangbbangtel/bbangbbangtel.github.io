@@ -4,6 +4,17 @@ const nav = document.querySelector('.navlinks');
 if (btn && nav) {
   btn.addEventListener('click', () => nav.classList.toggle('open'));
 
+  // 모든 페이지의 공통 메뉴에 판매사례 링크 자동 추가
+  if (!nav.querySelector('a[href$="cases.html"]')) {
+    const caseLink = document.createElement('a');
+    const inSubfolder = location.pathname.includes('/guide/') || location.pathname.includes('/gwangju/');
+    caseLink.href = inSubfolder ? '../cases.html' : 'cases.html';
+    caseLink.textContent = '판매사례';
+    const reviewLink = nav.querySelector('a[href$="reviews.html"]');
+    const ctaLink = nav.querySelector('.cta');
+    nav.insertBefore(caseLink, reviewLink || ctaLink || null);
+  }
+
   // 모든 페이지의 공통 메뉴에 고객후기 링크 자동 추가
   if (!nav.querySelector('a[href$="reviews.html"]')) {
     const reviewLink = document.createElement('a');
