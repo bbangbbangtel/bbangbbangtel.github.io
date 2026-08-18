@@ -136,6 +136,33 @@ content="7e75cf0d184fd365b611831bac521ec5583ac572">
   color:#33415d;
 }
 
+.nav-with-mini{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  white-space:nowrap;
+}
+
+.navlinks .nav-mini{
+  width:23px;
+  height:23px;
+  display:inline-grid;
+  place-items:center;
+  border:1px solid #cfe0ff;
+  border-radius:8px;
+  background:#eef4ff;
+  color:var(--brand);
+  font-size:13px;
+  font-weight:900;
+  line-height:1;
+}
+
+.navlinks .nav-mini:hover{
+  color:#fff;
+  background:var(--brand);
+  border-color:var(--brand);
+}
+
 @media(max-width:600px){
 
   .faq-item summary{
@@ -239,10 +266,6 @@ content="7e75cf0d184fd365b611831bac521ec5583ac572">
         아이폰
       </a>
 
-      <a href="data-transfer.html">
-        데이터 이동
-      </a>
-
       <a href="internet-tv.html">
         인터넷+TV
       </a>
@@ -255,9 +278,17 @@ content="7e75cf0d184fd365b611831bac521ec5583ac572">
         중고폰
       </a>
 
-      <a href="gwangju/index.html">
-        광주 휴대폰 정보
-      </a>
+      <span class="nav-with-mini">
+        <a href="gwangju/index.html">
+          광주 휴대폰 정보
+        </a>
+        <a class="nav-mini"
+           href="data-transfer.html"
+           aria-label="휴대폰 데이터 이동 안내"
+           title="휴대폰 데이터 이동">
+          ↔
+        </a>
+      </span>
 
       <a class="cta"
          href="store.html">
