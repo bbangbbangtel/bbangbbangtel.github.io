@@ -1,891 +1,2574 @@
 <!doctype html>
 <html lang="ko">
+
 <head>
+
+  <!--
+    PAGE VERSION
+    internet-tv.html v2.1
+    Updated: 2026-08-18
+  -->
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>인터넷+TV 상담 | 휴대폰싸게파는사람들</title>
-  <meta name="description" content="휴대폰싸게파는사람들에서 광주 휴대폰과 인터넷+TV를 함께 비교 상담하세요. 가족결합, 통신비 절감, 설치 혜택까지 한 번에 확인할 수 있습니다.">
+
+  <title>광주 인터넷·TV 가입 상담 | 휴대폰싸게파는사람들</title>
+
+  <meta
+    name="description"
+    content="광주 인터넷·TV 가입 상담. 휴대폰 가족결합, 인터넷 속도, IPTV 구성과 가입조건을 함께 비교해 가족 전체 통신비를 확인하세요."
+  >
+
   <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://bbangbbangtel.github.io/internet-tv.html">
-  <meta property="og:title" content="인터넷+TV 상담 | 휴대폰싸게파는사람들">
-  <meta property="og:description" content="휴대폰과 인터넷+TV를 함께 비교하면 가족 전체 통신비를 더 쉽게 줄일 수 있습니다.">
+
+  <meta name="page-version" content="2.1">
+
+  <link
+    rel="canonical"
+    href="https://bbangbbangtel.github.io/internet-tv.html"
+  >
+
+  <meta
+    property="og:title"
+    content="광주 인터넷·TV 가입 상담 | 휴대폰싸게파는사람들"
+  >
+
+  <meta
+    property="og:description"
+    content="휴대폰과 인터넷·TV, 가족결합까지 함께 확인해 가족 전체 통신비를 비교하세요."
+  >
+
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://bbangbbangtel.github.io/internet-tv.html">
+
+  <meta
+    property="og:url"
+    content="https://bbangbbangtel.github.io/internet-tv.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://bbangbbangtel.github.io/assets/og-image.png"
+  >
+
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
   <link rel="stylesheet" href="assets/style.css">
 
+
+  <!-- 구조화 데이터 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://bbangbbangtel.github.io/internet-tv.html#webpage",
+    "name": "광주 인터넷·TV 가입 상담",
+    "description": "광주 인터넷·TV와 휴대폰 가족결합, 인터넷 속도와 가입조건을 함께 비교하는 안내 페이지입니다.",
+    "url": "https://bbangbbangtel.github.io/internet-tv.html",
+    "inLanguage": "ko-KR",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "휴대폰싸게파는사람들",
+      "url": "https://bbangbbangtel.github.io/"
+    },
+    "about": {
+      "@type": "LocalBusiness",
+      "name": "휴대폰싸게파는사람들",
+      "telephone": "+82-10-4191-1918",
+      "url": "https://bbangbbangtel.github.io/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "장신로 134 1층 106호",
+        "addressLocality": "광산구",
+        "addressRegion": "광주광역시",
+        "addressCountry": "KR"
+      }
+    }
+  }
+  </script>
+
+
   <style>
-    .page-hero {
-      padding: 72px 0 48px;
-      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
-    }
-
-    .page-hero .hero-box {
-      display: grid;
-      grid-template-columns: 1.3fr 0.7fr;
-      gap: 32px;
-      align-items: center;
-      padding: 44px;
-      border-radius: 28px;
-      background: #ffffff;
-      border: 1px solid #dbe7ff;
-      box-shadow: 0 18px 40px rgba(31, 78, 201, 0.08);
-    }
-
-    .page-hero .eyebrow {
-      display: inline-block;
-      padding: 10px 18px;
-      border-radius: 999px;
-      background: #eaf2ff;
-      color: #2d6cdf;
-      font-size: 14px;
-      font-weight: 800;
-      margin-bottom: 18px;
-    }
-
-    .page-hero h1 {
-      font-size: clamp(32px, 5vw, 58px);
-      line-height: 1.15;
-      margin: 0 0 18px;
-      color: #142033;
-      letter-spacing: -0.03em;
+
+    /* =========================================================
+       INTERNET + TV PAGE
+       VERSION 2.1
+    ========================================================= */
+
+    .itv-hero{
+      padding:64px 0 46px;
+      background:
+        radial-gradient(
+          circle at 88% 15%,
+          #e5f3ff 0,
+          transparent 26%
+        ),
+        linear-gradient(
+          180deg,
+          #f8fbff 0%,
+          #ffffff 100%
+        );
+    }
+
+
+    .itv-hero-box{
+      display:grid;
+      grid-template-columns:1.3fr .7fr;
+      gap:32px;
+      align-items:center;
+
+      padding:42px;
+
+      border-radius:28px;
+
+      background:#fff;
+
+      border:1px solid #dbe7ff;
+
+      box-shadow:
+        0 18px 40px
+        rgba(31,78,201,.08);
+    }
+
+
+    .itv-eyebrow{
+      display:inline-block;
+
+      padding:8px 14px;
+
+      border-radius:999px;
+
+      background:#eaf2ff;
+
+      color:#2d6cdf;
+
+      font-size:13px;
+      font-weight:850;
+
+      margin-bottom:15px;
+    }
+
+
+    .itv-hero h1{
+      margin:0 0 18px;
+
+      font-size:
+        clamp(32px,4.7vw,56px);
+
+      line-height:1.14;
+
+      letter-spacing:-2px;
+
+      color:#142033;
+    }
+
+
+    .itv-hero h1 span{
+      color:#2d6cdf;
+    }
+
+
+    .itv-hero-text{
+      max-width:760px;
+
+      margin:0 0 22px;
+
+      font-size:17px;
+      line-height:1.8;
+
+      color:#5b6b84;
+    }
+
+
+    .itv-points{
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+
+      margin-bottom:22px;
+    }
+
+
+    .itv-points span{
+      padding:9px 14px;
+
+      border-radius:999px;
+
+      background:#f4f8ff;
+
+      border:1px solid #dbe7ff;
+
+      color:#446089;
+
+      font-size:13.5px;
+      font-weight:750;
+    }
+
+
+    .itv-location{
+      color:#5a6d8e;
+
+      font-size:14px;
+      font-weight:700;
+    }
+
+
+    /* 스마트폰 그래픽 */
+
+    .itv-device-wrap{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+
+    .itv-device{
+      width:205px;
+      height:300px;
+
+      position:relative;
+
+      border:5px solid #2d6cdf;
+
+      border-radius:32px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #fff,
+          #f4f8ff
+        );
+
+      box-shadow:
+        0 18px 40px
+        rgba(45,108,223,.15);
+    }
+
+
+    .itv-device::before{
+      content:"";
+
+      position:absolute;
+
+      top:18px;
+      left:50%;
+
+      transform:
+        translateX(-50%);
+
+      width:82px;
+      height:16px;
+
+      border-radius:999px;
+
+      background:#dbe7ff;
+    }
+
+
+    .itv-screen{
+      position:absolute;
+
+      top:52px;
+      left:20px;
+      right:20px;
+      bottom:27px;
+
+      padding:18px;
+
+      display:flex;
+      flex-direction:column;
+
+      gap:12px;
+
+      border-radius:21px;
+
+      background:#f7faff;
+    }
+
+
+    .itv-screen-box{
+      height:42px;
+
+      border-radius:12px;
+
+      background:#dbe7ff;
+    }
+
+
+    .itv-screen-line{
+      height:14px;
+
+      border-radius:999px;
+
+      background:#dbe7ff;
+    }
+
+
+    .itv-screen-line.medium{
+      width:82%;
+    }
+
+
+    .itv-screen-line.short{
+      width:60%;
+    }
+
+
+    .itv-device::after{
+      content:"";
+
+      position:absolute;
+
+      bottom:10px;
+      left:50%;
+
+      transform:
+        translateX(-50%);
+
+      width:52px;
+      height:6px;
+
+      border-radius:999px;
+
+      background:#2d6cdf;
+    }
+
+
+    /* 공통 섹션 */
+
+    .itv-section{
+      padding:62px 0;
+    }
+
+
+    .itv-section.alt{
+      background:#fbfcff;
+    }
+
+
+    .itv-section-title{
+      margin-bottom:28px;
+    }
+
+
+    .itv-section-title h2{
+      margin:0;
+
+      font-size:
+        clamp(27px,3.4vw,40px);
+
+      line-height:1.25;
+
+      letter-spacing:-1.4px;
+
+      color:#142033;
+    }
+
+
+    .itv-section-desc{
+      max-width:900px;
+
+      margin-top:11px;
+
+      color:#60708a;
+
+      font-size:16px;
+      line-height:1.75;
+    }
+
+
+    /* 이유 카드 */
+
+    .itv-benefits{
+      display:grid;
+
+      grid-template-columns:
+        repeat(3,1fr);
+
+      gap:16px;
+    }
+
+
+    .itv-benefit{
+      padding:23px;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
+
+      border-radius:20px;
+
+      box-shadow:
+        0 10px 24px
+        rgba(20,32,51,.045);
+    }
+
+
+    .itv-num{
+      width:40px;
+      height:40px;
+
+      display:grid;
+      place-items:center;
+
+      border-radius:50%;
+
+      background:#2d6cdf;
+
+      color:#fff;
+
+      font-size:15px;
+      font-weight:900;
+
+      margin-bottom:13px;
+    }
+
+
+    .itv-benefit h3{
+      margin:0 0 8px;
+
+      font-size:19px;
+
+      color:#142033;
+    }
+
+
+    .itv-benefit p{
+      margin:0;
+
+      color:#60708a;
+
+      font-size:14px;
+      line-height:1.7;
+    }
+
+
+    /* =========================================================
+       가족 전체 통신비 비교
+    ========================================================= */
+
+    .itv-compare-wrap{
+      background:#f6f9ff;
+
+      border:
+        1px solid #dbe7ff;
+
+      border-radius:26px;
+
+      padding:26px;
+    }
+
+
+    .itv-compare-head{
+      display:flex;
+
+      justify-content:
+        space-between;
+
+      align-items:flex-end;
+
+      gap:20px;
+
+      flex-wrap:wrap;
+
+      margin-bottom:23px;
     }
+
 
-    .page-hero h1 span {
-      color: #2d6cdf;
-    }
-
-    .page-hero p {
-      font-size: 18px;
-      line-height: 1.8;
-      color: #5b6b84;
-      margin: 0 0 22px;
-    }
-
-    .hero-points {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 26px;
+    .itv-compare-head h3{
+      margin:0 0 7px;
+
+      font-size:26px;
+
+      color:#142033;
     }
+
+
+    .itv-compare-head p{
+      margin:0;
+
+      max-width:800px;
+
+      color:#60708a;
 
-    .hero-points span {
-      padding: 12px 18px;
-      border-radius: 999px;
-      background: #f4f8ff;
-      border: 1px solid #dbe7ff;
-      color: #446089;
-      font-size: 15px;
-      font-weight: 700;
+      font-size:14.5px;
+      line-height:1.7;
     }
 
-    .hero-note {
-      font-size: 18px;
-      color: #5a6d8e;
-      margin-top: 6px;
+
+    .itv-compare-badge{
+      padding:9px 13px;
+
+      border-radius:999px;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
+
+      color:#2d6cdf;
+
+      font-size:13px;
+      font-weight:850;
+
+      white-space:nowrap;
     }
-
-    .hero-figure {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+
+    /* PC : 한 줄 */
+
+    .itv-compare-grid{
+      display:grid;
+
+      grid-template-columns:
+        minmax(130px,1fr)
+        38px
+        minmax(130px,1fr)
+        38px
+        minmax(130px,1fr)
+        38px
+        minmax(130px,1fr)
+        38px
+        minmax(180px,1.2fr);
+
+      gap:8px;
+
+      align-items:stretch;
     }
 
-    .hero-device {
-      width: 220px;
-      height: 320px;
-      border: 5px solid #2d6cdf;
-      border-radius: 34px;
-      position: relative;
-      background: linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
-      box-shadow: 0 18px 40px rgba(45, 108, 223, 0.14);
+
+    .itv-compare-card{
+      min-height:175px;
+
+      padding:20px 14px;
+
+      display:flex;
+      flex-direction:column;
+
+      justify-content:center;
+      align-items:center;
+
+      text-align:center;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
+
+      border-radius:19px;
+
+      box-shadow:
+        0 8px 20px
+        rgba(20,32,51,.045);
     }
+
+
+    .itv-compare-icon{
+      width:44px;
+      height:44px;
+
+      display:grid;
+      place-items:center;
 
-    .hero-device::before {
-      content: "";
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 90px;
-      height: 18px;
-      border-radius: 999px;
-      background: #dbe7ff;
+      border-radius:14px;
+
+      background:#edf4ff;
+
+      font-size:22px;
+
+      margin-bottom:11px;
     }
+
+
+    .itv-compare-card h4{
+      margin:0 0 7px;
+
+      color:#142033;
 
-    .hero-screen {
-      position: absolute;
-      top: 58px;
-      left: 22px;
-      right: 22px;
-      bottom: 28px;
-      border-radius: 22px;
-      background: #f7faff;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      padding: 20px;
+      font-size:17px;
     }
 
-    .hero-screen .bar {
-      height: 38px;
-      border-radius: 12px;
-      background: #dbe7ff;
+
+    .itv-compare-card p{
+      margin:0;
+
+      color:#60708a;
+
+      font-size:12.8px;
+      line-height:1.6;
     }
+
+
+    .itv-op{
+      display:flex;
+
+      justify-content:center;
+      align-items:center;
 
-    .hero-screen .line {
-      height: 16px;
-      border-radius: 999px;
-      background: #dbe7ff;
+      color:#2d6cdf;
+
+      font-size:27px;
+      font-weight:900;
     }
+
+
+    /* 결과 */
+
+    .itv-result{
+      min-height:175px;
+
+      padding:22px 18px;
+
+      display:flex;
+      flex-direction:column;
 
-    .hero-screen .line.short {
-      width: 65%;
+      justify-content:center;
+
+      border-radius:21px;
+
+      color:#fff;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2d6cdf,
+          #1686d7
+        );
+
+      box-shadow:
+        0 14px 28px
+        rgba(45,108,223,.22);
     }
+
+
+    .itv-result-label{
+      display:inline-block;
 
-    .hero-screen .line.mid {
-      width: 82%;
+      width:fit-content;
+
+      padding:6px 10px;
+
+      margin-bottom:10px;
+
+      border-radius:999px;
+
+      background:
+        rgba(255,255,255,.18);
+
+      font-size:12px;
+      font-weight:850;
     }
+
 
-    .hero-device::after {
-      content: "";
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 54px;
-      height: 7px;
-      border-radius: 999px;
-      background: #2d6cdf;
+    .itv-result h4{
+      margin:0 0 8px;
+
+      font-size:21px;
+      line-height:1.4;
+
+      color:#fff;
     }
+
 
-    .section-block {
-      padding: 70px 0;
+    .itv-result p{
+      margin:0;
+
+      color:
+        rgba(255,255,255,.92);
+
+      font-size:13px;
+      line-height:1.65;
     }
+
+
+    /* 상담 준비 */
 
-    .section-title {
-      margin-bottom: 18px;
+    .itv-consult{
+      margin-top:25px;
+
+      padding:25px;
+
+      display:grid;
+
+      grid-template-columns:
+        1.05fr .95fr;
+
+      gap:22px;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
+
+      border-radius:22px;
+
+      box-shadow:
+        0 10px 24px
+        rgba(20,32,51,.045);
     }
+
 
-    .section-title .eyebrow {
-      display: inline-block;
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: #ecf4ff;
-      color: #2d6cdf;
-      font-size: 13px;
-      font-weight: 800;
-      margin-bottom: 12px;
-    }
-
-    .section-title h2 {
-      margin: 0;
-      font-size: clamp(28px, 4vw, 44px);
-      line-height: 1.2;
-      color: #142033;
-      letter-spacing: -0.03em;
-    }
+    .itv-consult h3{
+      margin:0 0 9px;
 
-    .section-desc {
-      max-width: 900px;
-      color: #60708a;
-      font-size: 17px;
-      line-height: 1.8;
-      margin-top: 12px;
-    }
-
-    .benefit-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      margin-top: 34px;
+      font-size:23px;
+
+      color:#142033;
     }
-
-    .benefit-card {
-      background: #fff;
-      border: 1px solid #dbe7ff;
-      border-radius: 22px;
-      padding: 26px;
-      box-shadow: 0 14px 30px rgba(20, 32, 51, 0.05);
+
+
+    .itv-consult p{
+      margin:0;
+
+      color:#60708a;
+
+      font-size:14px;
+      line-height:1.7;
     }
-
-    .benefit-card .num {
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      background: #2d6cdf;
-      color: #fff;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      margin-bottom: 14px;
+
+
+    .itv-consult-list{
+      list-style:none;
+
+      padding:0;
+      margin:0;
+
+      display:grid;
+
+      gap:8px;
     }
+
+
+    .itv-consult-list li{
+      padding:11px 13px;
+
+      border-radius:13px;
+
+      border:
+        1px solid #dbe7ff;
+
+      background:#f7faff;
 
-    .benefit-card h3 {
-      margin: 0 0 10px;
-      font-size: 20px;
-      color: #142033;
+      color:#3d5578;
+
+      font-size:13px;
+      font-weight:750;
     }
+
+
+    .itv-actions{
+      display:flex;
 
-    .benefit-card p {
-      margin: 0;
-      color: #60708a;
-      line-height: 1.8;
-      font-size: 15px;
-    }
-
-    .compare-wrap {
-      margin-top: 34px;
-      background: #f6f9ff;
-      border: 1px solid #dbe7ff;
-      border-radius: 28px;
-      padding: 28px;
-    }
-
-    .compare-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: end;
-      gap: 20px;
-      margin-bottom: 24px;
-      flex-wrap: wrap;
-    }
-
-    .compare-head h3 {
-      margin: 0 0 8px;
-      font-size: 28px;
-      color: #142033;
-    }
-
-    .compare-head p {
-      margin: 0;
-      color: #60708a;
-      font-size: 15px;
-      line-height: 1.7;
+      flex-wrap:wrap;
+
+      gap:9px;
+
+      margin-top:18px;
     }
-
-    .compare-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 14px;
-      border-radius: 999px;
-      background: #ffffff;
-      border: 1px solid #dbe7ff;
-      color: #2d6cdf;
-      font-weight: 800;
-      font-size: 14px;
-      white-space: nowrap;
-    }
-
-    .compare-grid {
-      display: grid;
-      grid-template-columns: 1fr 70px 1fr 70px 1fr 70px 1fr 70px 1.15fr;
-      gap: 12px;
-      align-items: stretch;
-    }
-
-    .compare-card {
-      background: #fff;
-      border: 1px solid #dbe7ff;
-      border-radius: 22px;
-      padding: 24px 18px;
-      text-align: center;
-      min-height: 170px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      box-shadow: 0 10px 22px rgba(20, 32, 51, 0.05);
-    }
-
-    .compare-card .icon {
-      font-size: 28px;
-      margin-bottom: 12px;
-    }
-
-    .compare-card h4 {
-      margin: 0 0 10px;
-      font-size: 18px;
-      color: #142033;
-    }
-
-    .compare-card p {
-      margin: 0;
-      color: #60708a;
-      line-height: 1.7;
-      font-size: 14px;
-    }
-
-    .compare-op {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 34px;
-      font-weight: 800;
-      color: #2d6cdf;
-    }
-
-    .compare-result {
-      background: linear-gradient(135deg, #2d6cdf 0%, #1f86dc 100%);
-      color: #fff;
-      border-radius: 24px;
-      padding: 24px 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      box-shadow: 0 16px 34px rgba(45, 108, 223, 0.24);
+
+
+    .itv-btn-primary,
+    .itv-btn-secondary{
+      display:inline-flex;
+
+      justify-content:center;
+      align-items:center;
+
+      padding:11px 16px;
+
+      border-radius:12px;
+
+      font-size:13px;
+      font-weight:850;
+
+      transition:.18s;
     }
-
-    .compare-result .result-badge {
-      display: inline-block;
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.18);
-      font-size: 13px;
-      font-weight: 800;
-      margin-bottom: 12px;
-      width: fit-content;
+
+
+    .itv-btn-primary{
+      color:#fff;
+
+      background:#2d6cdf;
     }
 
-    .compare-result h4 {
-      margin: 0 0 10px;
-      font-size: 24px;
-      line-height: 1.35;
+
+    .itv-btn-primary:hover{
+      background:#225ac0;
+
+      transform:
+        translateY(-1px);
     }
+
 
-    .compare-result p {
-      margin: 0;
-      line-height: 1.8;
-      font-size: 15px;
-      color: rgba(255,255,255,0.92);
+    .itv-btn-secondary{
+      color:#2d6cdf;
+
+      background:#f4f8ff;
+
+      border:
+        1px solid #dbe7ff;
     }
+
 
-    .consult-box {
-      margin-top: 34px;
-      background: #ffffff;
-      border: 1px solid #dbe7ff;
-      border-radius: 24px;
-      padding: 28px;
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 24px;
-      box-shadow: 0 14px 30px rgba(20, 32, 51, 0.05);
+    .itv-btn-secondary:hover{
+      background:#eaf2ff;
+
+      transform:
+        translateY(-1px);
     }
+
+
+    /* 이런 분께 */
+
+    .itv-info-grid{
+      display:grid;
 
-    .consult-box h3 {
-      margin: 0 0 12px;
-      font-size: 26px;
-      color: #142033;
+      grid-template-columns:
+        repeat(3,1fr);
+
+      gap:16px;
     }
+
+
+    .itv-info-card{
+      padding:22px;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
+
+      border-radius:20px;
 
-    .consult-box p {
-      margin: 0;
-      color: #60708a;
-      line-height: 1.8;
-      font-size: 15px;
+      box-shadow:
+        0 8px 20px
+        rgba(20,32,51,.045);
     }
+
+
+    .itv-info-icon{
+      width:40px;
+      height:40px;
+
+      display:grid;
+      place-items:center;
+
+      border-radius:12px;
+
+      background:#edf4ff;
+
+      margin-bottom:12px;
 
-    .consult-list {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: grid;
-      gap: 12px;
+      font-size:20px;
     }
 
-    .consult-list li {
-      background: #f7faff;
-      border: 1px solid #dbe7ff;
-      border-radius: 16px;
-      padding: 14px 16px;
-      color: #3d5578;
-      font-size: 15px;
-      font-weight: 700;
+
+    .itv-info-card h3{
+      margin:0 0 8px;
+
+      font-size:18px;
+
+      color:#142033;
     }
+
+
+    .itv-info-card p{
+      margin:0;
+
+      color:#60708a;
 
-    .cta-row {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 22px;
+      font-size:14px;
+      line-height:1.7;
     }
 
-    .btn-primary,
-    .btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 14px 22px;
-      border-radius: 14px;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 15px;
-      transition: 0.2s ease;
+
+    /* 체크 포인트 */
+
+    .itv-check-grid{
+      display:grid;
+
+      grid-template-columns:
+        repeat(2,1fr);
+
+      gap:11px;
     }
+
+
+    .itv-check{
+      display:flex;
 
-    .btn-primary {
-      background: #2d6cdf;
-      color: #fff;
+      gap:10px;
+
+      align-items:flex-start;
+
+      padding:15px;
+
+      border-radius:15px;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
     }
+
+
+    .itv-check-mark{
+      flex:0 0 auto;
+
+      width:27px;
+      height:27px;
+
+      display:grid;
+      place-items:center;
+
+      border-radius:50%;
+
+      background:#eaf2ff;
+
+      color:#2d6cdf;
 
-    .btn-primary:hover {
-      background: #225ac0;
+      font-size:13px;
+      font-weight:900;
     }
 
-    .btn-secondary {
-      background: #f4f8ff;
-      border: 1px solid #dbe7ff;
-      color: #2d6cdf;
+
+    .itv-check strong{
+      display:block;
+
+      margin-bottom:3px;
+
+      font-size:14px;
     }
 
-    .btn-secondary:hover {
-      background: #e9f1ff;
+
+    .itv-check span{
+      color:#60708a;
+
+      font-size:12.5px;
+      line-height:1.55;
     }
+
 
-    .info-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      margin-top: 34px;
+    /* FAQ */
+
+    .itv-faq{
+      display:grid;
+
+      gap:10px;
     }
+
 
-    .info-card {
-      background: #fff;
-      border: 1px solid #dbe7ff;
-      border-radius: 22px;
-      padding: 24px;
-      box-shadow: 0 10px 22px rgba(20, 32, 51, 0.05);
+    .itv-faq-item{
+      overflow:hidden;
+
+      background:#fff;
+
+      border:
+        1px solid #dbe7ff;
+
+      border-radius:15px;
     }
+
 
-    .info-card h3 {
-      margin: 0 0 12px;
-      font-size: 20px;
-      color: #142033;
+    .itv-faq-question{
+      width:100%;
+
+      padding:16px 18px;
+
+      display:flex;
+
+      justify-content:
+        space-between;
+
+      align-items:center;
+
+      gap:15px;
+
+      border:0;
+
+      background:#fff;
+
+      color:#142033;
+
+      text-align:left;
+
+      font-family:inherit;
+
+      font-size:15px;
+      font-weight:850;
+
+      cursor:pointer;
     }
 
-    .info-card p {
-      margin: 0;
-      color: #60708a;
-      font-size: 15px;
-      line-height: 1.8;
+
+    .itv-faq-plus{
+      flex:0 0 auto;
+
+      width:28px;
+      height:28px;
+
+      display:grid;
+      place-items:center;
+
+      border-radius:50%;
+
+      background:#eef4ff;
+
+      color:#2d6cdf;
+
+      font-size:18px;
+
+      transition:.2s;
     }
+
+
+    .itv-faq-answer{
+      display:none;
+
+      padding:
+        0 18px 17px;
+
+      color:#60708a;
 
-    .faq-list {
-      display: grid;
-      gap: 14px;
-      margin-top: 34px;
+      font-size:13.5px;
+      line-height:1.75;
     }
 
-    .faq-item {
-      border: 1px solid #dbe7ff;
-      border-radius: 18px;
-      background: #fff;
-      overflow: hidden;
+
+    .itv-faq-item.open
+    .itv-faq-answer{
+      display:block;
     }
 
-    .faq-question {
-      width: 100%;
-      background: #fff;
-      border: none;
-      text-align: left;
-      padding: 20px 22px;
-      font-size: 17px;
-      font-weight: 800;
-      color: #142033;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
+
+    .itv-faq-item.open
+    .itv-faq-plus{
+      transform:
+        rotate(45deg);
     }
+
+
+    /* 마지막 상담 */
+
+    .itv-final{
+      padding:30px;
+
+      display:flex;
 
-    .faq-question span:last-child {
-      color: #2d6cdf;
-      font-size: 22px;
-      line-height: 1;
+      align-items:center;
+
+      justify-content:
+        space-between;
+
+      gap:25px;
+
+      border-radius:23px;
+
+      color:#fff;
+
+      background:
+        linear-gradient(
+          135deg,
+          #1767e8,
+          #087fcf
+        );
     }
+
 
-    .faq-answer {
-      display: none;
-      padding: 0 22px 20px;
-      color: #60708a;
-      font-size: 15px;
-      line-height: 1.8;
+    .itv-final h2{
+      margin:0 0 7px;
+
+      color:#fff;
+
+      font-size:
+        clamp(22px,3vw,30px);
     }
+
+
+    .itv-final p{
+      margin:0;
+
+      max-width:720px;
+
+      color:#e8f0ff;
 
-    .faq-item.open .faq-answer {
-      display: block;
+      font-size:14px;
+      line-height:1.7;
     }
 
-    .faq-item.open .faq-question span:last-child {
-      transform: rotate(45deg);
+
+    .itv-final .itv-btn-primary{
+      flex:0 0 auto;
+
+      background:#fff;
+
+      color:#1457d8;
+
+      padding:13px 19px;
     }
+
+
+    /* =========================================================
+       TABLET
+       2 x 2 비교 카드
+    ========================================================= */
+
+    @media(max-width:1100px){
 
-    @media (max-width: 1100px) {
-      .compare-grid {
-        grid-template-columns: 1fr 52px 1fr 52px 1fr 52px 1fr;
+      .itv-hero-box{
+        grid-template-columns:1fr .45fr;
       }
 
-      .compare-result {
-        grid-column: 1 / -1;
+
+      .itv-compare-grid{
+        grid-template-columns:
+          repeat(2,minmax(0,1fr));
+
+        gap:11px;
       }
+
+
+      .itv-op{
+        display:none;
+      }
+
+
+      .itv-result{
+        grid-column:1/-1;
+      }
+
     }
 
-    @media (max-width: 900px) {
-      .page-hero .hero-box,
-      .consult-box,
-      .benefit-grid,
-      .info-grid {
-        grid-template-columns: 1fr;
+
+    /* =========================================================
+       MOBILE
+    ========================================================= */
+
+    @media(max-width:760px){
+
+      .itv-hero{
+        padding:38px 0 30px;
       }
 
-      .compare-grid {
-        grid-template-columns: 1fr;
+
+      .itv-hero-box{
+        grid-template-columns:1fr;
+
+        padding:24px;
+
+        border-radius:21px;
       }
 
-      .compare-op {
-        min-height: 34px;
-        font-size: 26px;
+
+      .itv-device-wrap{
+        display:none;
       }
 
-      .page-hero .hero-box {
-        padding: 28px;
+
+      .itv-hero h1{
+        font-size:34px;
+
+        letter-spacing:-1.5px;
       }
+
+
+      .itv-hero-text{
+        font-size:15px;
+
+        line-height:1.7;
+      }
+
+
+      .itv-section{
+        padding:45px 0;
+      }
+
+
+      .itv-benefits,
+      .itv-info-grid,
+      .itv-check-grid,
+      .itv-consult{
+        grid-template-columns:1fr;
+      }
+
+
+      .itv-compare-wrap{
+        padding:18px;
+
+        border-radius:20px;
+      }
+
+
+      .itv-compare-head{
+        margin-bottom:17px;
+      }
+
+
+      .itv-compare-head h3{
+        font-size:22px;
+      }
+
+
+      .itv-compare-grid{
+        grid-template-columns:1fr;
+      }
+
+
+      .itv-result{
+        grid-column:auto;
+      }
+
+
+      .itv-compare-card,
+      .itv-result{
+        min-height:auto;
+      }
+
+
+      .itv-compare-card{
+        padding:18px;
+
+        align-items:flex-start;
+
+        text-align:left;
+      }
+
+
+      .itv-compare-icon{
+        margin-bottom:9px;
+      }
+
+
+      .itv-consult{
+        padding:20px;
+      }
+
+
+      .itv-actions{
+        flex-direction:column;
+      }
+
+
+      .itv-btn-primary,
+      .itv-btn-secondary{
+        width:100%;
+      }
+
+
+      .itv-final{
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        padding:23px;
+      }
+
+
+      .itv-final .itv-btn-primary{
+        width:100%;
+      }
+
     }
 
-    @media (max-width: 640px) {
-      .page-hero {
-        padding: 54px 0 34px;
+
+    @media(max-width:420px){
+
+      .itv-hero h1{
+        font-size:30px;
       }
 
-      .section-block {
-        padding: 52px 0;
+
+      .itv-points span{
+        font-size:12px;
+
+        padding:8px 11px;
       }
 
-      .page-hero h1 {
-        font-size: 34px;
+
+      .itv-section-title h2{
+        font-size:25px;
       }
 
-      .page-hero p,
-      .hero-note {
-        font-size: 16px;
-      }
-
-      .compare-wrap,
-      .consult-box,
-      .benefit-card,
-      .info-card {
-        padding: 20px;
-      }
-
-      .compare-head h3,
-      .consult-box h3 {
-        font-size: 22px;
-      }
-
-      .faq-question {
-        font-size: 16px;
-        padding: 18px;
-      }
-
-      .faq-answer {
-        padding: 0 18px 18px;
-      }
     }
+
   </style>
+
 </head>
+
+
 <body>
+
+
+  <!-- 상단 안내 -->
   <div class="topbar">
+
     <div class="container">
-      <span>광주 휴대폰 구매정보를 쉽고 정확하게</span>
-      <span>휴대폰 · 인터넷+TV · 선불폰 · 중고폰 상담</span>
+
+      <span>
+        광주 휴대폰 구매정보를 쉽고 정확하게
+      </span>
+
+      <span>
+        휴대폰 · 인터넷+TV · 선불폰 · 중고폰
+      </span>
+
     </div>
+
   </div>
 
+
+
+  <!-- 상단 메뉴 -->
   <header>
+
     <div class="container nav">
-      <a class="logo" href="index.html">휴대폰<span>싸게파는사람들</span></a>
-      <button class="menu-btn" aria-label="메뉴">☰</button>
+
+      <a
+        class="logo"
+        href="index.html"
+      >
+        휴대폰<span>싸게파는사람들</span>
+      </a>
+
+
+      <button
+        class="menu-btn"
+        aria-label="메뉴"
+      >
+        ☰
+      </button>
+
+
       <nav class="navlinks">
-        <a href="guide/index.html">구매가이드</a>
-        <a href="galaxy.html">갤럭시</a>
-        <a href="iphone.html">아이폰</a>
-        <a href="internet-tv.html">인터넷+TV</a>
-        <a href="prepaid.html">선불폰</a>
-        <a href="usedphone.html">중고폰</a>
-        <a href="news.html">광주 휴대폰 종합정보</a>
-        <a class="cta" href="store.html">매장안내 / 상담</a>
+
+        <a href="guide/index.html">
+          구매가이드
+        </a>
+
+        <a href="galaxy.html">
+          갤럭시
+        </a>
+
+        <a href="iphone.html">
+          아이폰
+        </a>
+
+        <a href="internet-tv.html">
+          인터넷+TV
+        </a>
+
+        <a href="prepaid.html">
+          선불폰
+        </a>
+
+        <a href="usedphone.html">
+          중고폰
+        </a>
+
+        <a href="gwangju/index.html">
+          광주 휴대폰 정보
+        </a>
+
+        <a
+          class="cta"
+          href="store.html"
+        >
+          매장안내 / 상담
+        </a>
+
       </nav>
+
     </div>
+
   </header>
 
+
+
   <main>
-    <section class="page-hero">
+
+
+    <!-- ======================================================
+         HERO
+    ======================================================= -->
+
+    <section class="itv-hero">
+
       <div class="container">
-        <div class="hero-box">
+
+        <div class="itv-hero-box">
+
+
           <div>
-            <div class="eyebrow">광주 인터넷+TV 상담</div>
-            <h1>휴대폰과 <span>인터넷+TV</span>를<br>함께 비교하세요</h1>
-            <p>
-              휴대폰 통신사와 가족 회선을 함께 확인하면 인터넷·TV 결합까지 고려해
-              가족 전체 통신비를 더 쉽게 비교할 수 있습니다.
+
+            <span class="itv-eyebrow">
+              광주 인터넷+TV 상담
+            </span>
+
+
+            <h1>
+              휴대폰과
+              <span>인터넷+TV</span>를<br>
+              함께 비교하세요
+            </h1>
+
+
+            <p class="itv-hero-text">
+
+              휴대폰 통신사와
+              가족 회선을 함께 확인하면
+              인터넷·TV 결합까지 고려해
+
+              <strong>
+                가족 전체 통신비
+              </strong>를
+
+              더 정확하게 비교할 수 있습니다.
+
             </p>
 
-            <div class="hero-points">
-              <span>가족결합 확인</span>
-              <span>월 통신비 비교</span>
-              <span>설치 혜택 안내</span>
-              <span>휴대폰 동시 상담</span>
+
+            <div class="itv-points">
+
+              <span>
+                👨‍👩‍👧‍👦 가족결합 확인
+              </span>
+
+              <span>
+                💰 전체 통신비 비교
+              </span>
+
+              <span>
+                🌐 인터넷 속도 비교
+              </span>
+
+              <span>
+                📺 TV 구성 확인
+              </span>
+
             </div>
 
-            <div class="hero-note">
-              광주 전지역 동일 정책 · 수완지구 오프라인 매장 상담 가능
+
+            <div class="itv-location">
+
+              📍 광주 전지역 동일정책 ·
+              수완지구 오프라인 매장
+
             </div>
+
           </div>
 
-          <div class="hero-figure">
-            <div class="hero-device">
-              <div class="hero-screen">
-                <div class="bar"></div>
-                <div class="line mid"></div>
-                <div class="line short"></div>
-                <div class="bar"></div>
-                <div class="line mid"></div>
-                <div class="line short"></div>
+
+
+          <div class="itv-device-wrap">
+
+            <div class="itv-device">
+
+              <div class="itv-screen">
+
+                <div class="itv-screen-box"></div>
+
+                <div class="itv-screen-line medium"></div>
+
+                <div class="itv-screen-line short"></div>
+
+                <div class="itv-screen-box"></div>
+
+                <div class="itv-screen-line medium"></div>
+
+                <div class="itv-screen-line short"></div>
+
               </div>
+
             </div>
+
           </div>
+
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section-block">
+
+
+    <!-- ======================================================
+         같이 보면 좋은 이유
+    ======================================================= -->
+
+    <section class="itv-section">
+
       <div class="container">
-        <div class="section-title">
-          <div class="eyebrow">왜 같이 보나요?</div>
-          <h2>휴대폰과 인터넷+TV를 함께 보면 좋은 이유</h2>
-          <div class="section-desc">
-            휴대폰만 따로, 인터넷만 따로 비교하면 놓치는 부분이 생길 수 있습니다.
-            가족 회선과 결합 여부까지 같이 확인하면 전체 통신비 흐름이 더 또렷하게 보입니다.
-          </div>
-        </div>
 
-        <div class="benefit-grid">
-          <article class="benefit-card">
-            <div class="num">1</div>
-            <h3>가족결합까지 한 번에 확인</h3>
-            <p>현재 사용 중인 휴대폰 통신사, 가족 회선, 인터넷·TV 이용 현황을 함께 보면 결합 가능한 구조를 쉽게 파악할 수 있습니다.</p>
-          </article>
 
-          <article class="benefit-card">
-            <div class="num">2</div>
-            <h3>월 통신비 전체 비교</h3>
-            <p>휴대폰만 따로 보면 실제 체감 비용이 잘 안 보일 수 있습니다. 인터넷과 TV까지 함께 보면 가정 전체 통신비를 더 현실적으로 볼 수 있습니다.</p>
-          </article>
+        <div class="itv-section-title">
 
-          <article class="benefit-card">
-            <div class="num">3</div>
-            <h3>설치 혜택까지 체크 가능</h3>
-            <p>인터넷 속도, 결합 구성, 통신사 조건에 따라 설치 혜택이 달라질 수 있어 휴대폰 상담과 함께 보는 편이 더 유리한 경우가 많습니다.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+          <span class="itv-eyebrow">
+            왜 같이 보나요?
+          </span>
 
-    <section class="section-block" style="background:#fbfcff;">
-      <div class="container">
-        <div class="section-title">
-          <div class="eyebrow">한눈에 비교</div>
-          <h2>가족 통신비는 이렇게 같이 보시면 됩니다</h2>
-          <div class="section-desc">
-            기존처럼 세로로 길게 늘어놓지 않고, 실제 상담 흐름이 보이도록 카드형으로 정리했습니다.
-            PC에서는 한 줄 흐름, 모바일에서는 보기 쉬운 카드 구조로 자동 정리됩니다.
-          </div>
-        </div>
+          <h2>
+            휴대폰과 인터넷+TV를
+            함께 보면 좋은 이유
+          </h2>
 
-        <div class="compare-wrap">
-          <div class="compare-head">
-            <div>
-              <h3>한 번에 비교하세요</h3>
-              <p>가족 휴대폰 + 인터넷 + TV + 가족결합까지 함께 보면, 실제로 나가는 가족 전체 통신비를 더 쉽게 비교할 수 있습니다.</p>
-            </div>
-            <div class="compare-badge">통신비 전체 흐름 확인</div>
+          <div class="itv-section-desc">
+
+            휴대폰과 인터넷을
+            각각 따로 비교하면
+
+            가족결합이나
+            전체 통신비에서
+            놓치는 부분이 생길 수 있습니다.
+
           </div>
 
-          <div class="compare-grid">
-            <div class="compare-card">
-              <div class="icon">📱</div>
-              <h4>가족 휴대폰</h4>
-              <p>현재 쓰는 통신사와 가족 회선 수를 함께 확인합니다.</p>
-            </div>
-
-            <div class="compare-op">+</div>
-
-            <div class="compare-card">
-              <div class="icon">🌐</div>
-              <h4>인터넷</h4>
-              <p>500메가·1기가 등 원하는 속도와 이용 환경을 확인합니다.</p>
-            </div>
-
-            <div class="compare-op">+</div>
-
-            <div class="compare-card">
-              <div class="icon">📺</div>
-              <h4>TV</h4>
-              <p>필요한 채널 구성과 셋톱 이용 여부를 함께 비교합니다.</p>
-            </div>
-
-            <div class="compare-op">+</div>
-
-            <div class="compare-card">
-              <div class="icon">👨‍👩‍👧‍👦</div>
-              <h4>가족결합</h4>
-              <p>휴대폰과 인터넷·TV를 묶을 수 있는지 결합 구조를 확인합니다.</p>
-            </div>
-
-            <div class="compare-op">=</div>
-
-            <div class="compare-result">
-              <div class="result-badge">비교 결과</div>
-              <h4>가족 전체 통신비를<br>더 정확하게 비교</h4>
-              <p>휴대폰만 따로 보지 않고, 인터넷과 TV까지 같이 보면 월 부담과 결합 효과를 더 현실적으로 판단할 수 있습니다.</p>
-            </div>
-          </div>
         </div>
 
-        <div class="consult-box">
-          <div>
-            <h3>상담 전에 준비하면 좋은 정보</h3>
+
+
+        <div class="itv-benefits">
+
+
+          <article class="itv-benefit">
+
+            <div class="itv-num">
+              1
+            </div>
+
+            <h3>
+              가족결합까지 한 번에 확인
+            </h3>
+
             <p>
-              아래 내용이 있으면 비교가 훨씬 빨라집니다.  
-              모르셔도 괜찮고, 아는 범위만 말씀해 주셔도 상담은 가능합니다.
+
+              현재 사용하는 휴대폰 통신사와
+              가족 회선,
+              인터넷 이용상황을 함께 보면
+
+              적용 가능한 결합구조를
+              확인하기 쉽습니다.
+
             </p>
 
-            <div class="cta-row">
-              <a class="btn-primary" href="store.html">매장안내 / 상담 바로가기</a>
-              <a class="btn-secondary" href="tel:01041911918">전화 상담 010-4191-1918</a>
-            </div>
-          </div>
+          </article>
 
-          <ul class="consult-list">
-            <li>현재 사용 중인 휴대폰 통신사</li>
-            <li>가족 중 같은 통신사 회선 여부</li>
-            <li>현재 인터넷 사용 여부와 통신사</li>
-            <li>필요한 인터넷 속도와 TV 사용 패턴</li>
-          </ul>
+
+
+          <article class="itv-benefit">
+
+            <div class="itv-num">
+              2
+            </div>
+
+            <h3>
+              월 통신비 전체 비교
+            </h3>
+
+            <p>
+
+              휴대폰 가격만 보는 것이 아니라
+              휴대폰·인터넷·TV에서
+              매월 부담하는 비용을
+
+              가족 전체 기준으로
+              비교할 수 있습니다.
+
+            </p>
+
+          </article>
+
+
+
+          <article class="itv-benefit">
+
+            <div class="itv-num">
+              3
+            </div>
+
+            <h3>
+              가입조건을 함께 체크
+            </h3>
+
+            <p>
+
+              인터넷 속도,
+              TV 구성,
+              결합조건,
+              설치비와 약정 등
+
+              가입 전에 확인해야 할 내용을
+              함께 비교할 수 있습니다.
+
+            </p>
+
+          </article>
+
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section-block">
+
+
+    <!-- ======================================================
+         가족 전체 통신비 비교
+    ======================================================= -->
+
+    <section class="itv-section alt">
+
       <div class="container">
-        <div class="section-title">
-          <div class="eyebrow">상담 포인트</div>
-          <h2>이런 분들께 특히 도움이 됩니다</h2>
-          <div class="section-desc">
-            단순히 설치만 하는 상담보다, 현재 통신 구조를 같이 점검해야 더 유리한 경우가 많습니다.
+
+
+        <div class="itv-section-title">
+
+          <span class="itv-eyebrow">
+            한눈에 비교
+          </span>
+
+          <h2>
+            가족 통신비는
+            이렇게 같이 보시면 됩니다
+          </h2>
+
+          <div class="itv-section-desc">
+
+            가족 휴대폰부터
+            인터넷·TV,
+            가족결합까지
+
+            한 화면에서
+            전체 흐름을 확인할 수 있게
+            정리했습니다.
+
           </div>
+
         </div>
 
-        <div class="info-grid">
-          <article class="info-card">
-            <h3>휴대폰 변경도 같이 고민 중인 분</h3>
-            <p>휴대폰 개통과 인터넷·TV를 따로 보지 않고 함께 비교하면 전체 통신비 기준으로 더 합리적인 선택이 가능합니다.</p>
-          </article>
 
-          <article class="info-card">
-            <h3>가족 회선이 여러 개인 분</h3>
-            <p>가족이 같은 통신사를 쓰는 경우 결합 구조에 따라 체감 비용 차이가 커질 수 있어 꼭 함께 확인하는 것이 좋습니다.</p>
-          </article>
 
-          <article class="info-card">
-            <h3>이사·신규 설치를 앞둔 분</h3>
-            <p>신규 설치나 이전 설치 시기에는 인터넷·TV 조건과 휴대폰 결합까지 같이 검토하는 편이 훨씬 효율적입니다.</p>
-          </article>
+        <div class="itv-compare-wrap">
+
+
+          <div class="itv-compare-head">
+
+            <div>
+
+              <h3>
+                한 번에 비교하세요
+              </h3>
+
+              <p>
+
+                각각의 상품 가격보다
+                가족이 실제로 사용하는
+                통신서비스 전체를 기준으로
+                비교하는 것이 중요합니다.
+
+              </p>
+
+            </div>
+
+
+            <span class="itv-compare-badge">
+              가족 전체 통신비 기준
+            </span>
+
+          </div>
+
+
+
+          <div class="itv-compare-grid">
+
+
+            <!-- 가족 휴대폰 -->
+
+            <div class="itv-compare-card">
+
+              <div class="itv-compare-icon">
+                📱
+              </div>
+
+              <h4>
+                가족 휴대폰
+              </h4>
+
+              <p>
+
+                현재 통신사와
+                가족이 사용하는
+                휴대폰 회선 수를
+                확인합니다.
+
+              </p>
+
+            </div>
+
+
+            <div class="itv-op">
+              +
+            </div>
+
+
+
+            <!-- 인터넷 -->
+
+            <div class="itv-compare-card">
+
+              <div class="itv-compare-icon">
+                🌐
+              </div>
+
+              <h4>
+                인터넷
+              </h4>
+
+              <p>
+
+                사용환경에 맞는
+                인터넷 속도와
+                통신사를 비교합니다.
+
+              </p>
+
+            </div>
+
+
+            <div class="itv-op">
+              +
+            </div>
+
+
+
+            <!-- TV -->
+
+            <div class="itv-compare-card">
+
+              <div class="itv-compare-icon">
+                📺
+              </div>
+
+              <h4>
+                TV
+              </h4>
+
+              <p>
+
+                TV 이용 여부와
+                IPTV 상품,
+                필요한 구성을
+                확인합니다.
+
+              </p>
+
+            </div>
+
+
+            <div class="itv-op">
+              +
+            </div>
+
+
+
+            <!-- 가족결합 -->
+
+            <div class="itv-compare-card">
+
+              <div class="itv-compare-icon">
+                👨‍👩‍👧‍👦
+              </div>
+
+              <h4>
+                가족결합
+              </h4>
+
+              <p>
+
+                휴대폰과 인터넷을
+                함께 묶을 수 있는
+                결합조건을
+                확인합니다.
+
+              </p>
+
+            </div>
+
+
+            <div class="itv-op">
+              =
+            </div>
+
+
+
+            <!-- 결과 -->
+
+            <div class="itv-result">
+
+              <span class="itv-result-label">
+                비교 결과
+              </span>
+
+              <h4>
+
+                가족 전체 통신비를<br>
+                더 정확하게 비교
+
+              </h4>
+
+              <p>
+
+                휴대폰 한 대의 가격만이 아니라
+                가족이 실제 매월 부담하는
+                전체 통신비 기준으로
+                판단할 수 있습니다.
+
+              </p>
+
+            </div>
+
+
+          </div>
+
+
+
+          <!-- 상담 준비 -->
+
+          <div class="itv-consult">
+
+
+            <div>
+
+              <h3>
+                상담 전에 준비하면 좋은 정보
+              </h3>
+
+              <p>
+
+                아래 내용을
+                아는 범위만 알려주셔도
+
+                인터넷·TV와 휴대폰 결합을
+                비교하는 데 도움이 됩니다.
+
+              </p>
+
+
+              <div class="itv-actions">
+
+                <a
+                  class="itv-btn-primary"
+                  href="store.html"
+                >
+                  매장안내 / 상담
+                </a>
+
+
+                <a
+                  class="itv-btn-secondary"
+                  href="tel:01041911918"
+                >
+                  📞 010-4191-1918
+                </a>
+
+              </div>
+
+            </div>
+
+
+
+            <ul class="itv-consult-list">
+
+              <li>
+                📱 현재 사용하는 휴대폰 통신사
+              </li>
+
+              <li>
+                👨‍👩‍👧 가족 휴대폰 회선 수
+              </li>
+
+              <li>
+                🌐 현재 인터넷 통신사
+              </li>
+
+              <li>
+                📺 인터넷만 필요한지 TV도 필요한지
+              </li>
+
+              <li>
+                📅 기존 인터넷 약정 만료 여부
+              </li>
+
+            </ul>
+
+
+          </div>
+
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section-block" style="background:#fbfcff;">
+
+
+    <!-- ======================================================
+         이런 분께
+    ======================================================= -->
+
+    <section class="itv-section">
+
       <div class="container">
-        <div class="section-title">
-          <div class="eyebrow">자주 묻는 질문</div>
-          <h2>인터넷+TV 상담 FAQ</h2>
-          <div class="section-desc">
-            처음 상담하시는 분들이 자주 물어보는 내용을 간단히 정리했습니다.
-          </div>
+
+
+        <div class="itv-section-title">
+
+          <span class="itv-eyebrow">
+            상담 포인트
+          </span>
+
+          <h2>
+            이런 분들은
+            함께 비교해보세요
+          </h2>
+
         </div>
 
-        <div class="faq-list">
-          <div class="faq-item open">
-            <button class="faq-question" type="button">
-              <span>휴대폰과 인터넷·TV를 꼭 같이 상담해야 하나요?</span>
-              <span>＋</span>
-            </button>
-            <div class="faq-answer">
-              꼭 같이 해야 하는 것은 아니지만, 함께 보면 가족결합과 월 통신비 흐름까지 같이 비교할 수 있어 훨씬 효율적입니다.
-            </div>
-          </div>
 
-          <div class="faq-item">
-            <button class="faq-question" type="button">
-              <span>인터넷 속도는 어떻게 정하면 되나요?</span>
-              <span>＋</span>
-            </button>
-            <div class="faq-answer">
-              사용 인원수, IPTV 이용 패턴, 게임·영상 시청 비중에 따라 달라집니다. 일반 가정은 500메가 또는 1기가 기준으로 많이 비교합니다.
-            </div>
-          </div>
 
-          <div class="faq-item">
-            <button class="faq-question" type="button">
-              <span>가족 결합이 가능한지 모르면 상담이 안 되나요?</span>
-              <span>＋</span>
-            </button>
-            <div class="faq-answer">
-              아닙니다. 현재 사용 중인 통신사와 가족 회선 정보를 아는 만큼만 말씀해 주시면 가능한 방향을 같이 점검해 드릴 수 있습니다.
+        <div class="itv-info-grid">
+
+
+          <article class="itv-info-card">
+
+            <div class="itv-info-icon">
+              📱
             </div>
-          </div>
+
+            <h3>
+              휴대폰 변경 예정
+            </h3>
+
+            <p>
+
+              번호이동이나 기기변경과 함께
+              인터넷·TV도 변경할 예정이라면
+
+              휴대폰과 인터넷을
+              같이 비교해보는 것이 좋습니다.
+
+            </p>
+
+          </article>
+
+
+
+          <article class="itv-info-card">
+
+            <div class="itv-info-icon">
+              👨‍👩‍👧‍👦
+            </div>
+
+            <h3>
+              가족 회선이 여러 대
+            </h3>
+
+            <p>
+
+              가족이 같은 통신사를
+              여러 대 사용한다면
+
+              인터넷과 결합했을 때
+              적용할 수 있는 조건을
+              확인해볼 수 있습니다.
+
+            </p>
+
+          </article>
+
+
+
+          <article class="itv-info-card">
+
+            <div class="itv-info-icon">
+              🏠
+            </div>
+
+            <h3>
+              이사 · 신규 설치
+            </h3>
+
+            <p>
+
+              새 집으로 이사하거나
+              인터넷을 새로 설치한다면
+
+              기존 약정과 설치 가능 여부,
+              필요한 속도를 함께
+              확인하는 것이 좋습니다.
+
+            </p>
+
+          </article>
+
+
         </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ======================================================
+         체크사항
+    ======================================================= -->
+
+    <section class="itv-section alt">
+
+      <div class="container">
+
+
+        <div class="itv-section-title">
+
+          <span class="itv-eyebrow">
+            가입 전 체크
+          </span>
+
+          <h2>
+            인터넷+TV 가입 전
+            확인할 내용
+          </h2>
+
+        </div>
+
+
+
+        <div class="itv-check-grid">
+
+
+          <div class="itv-check">
+
+            <div class="itv-check-mark">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                기존 인터넷 약정
+              </strong>
+
+              <span>
+                약정 만료일과 해지 시 발생할 수 있는 비용을 확인합니다.
+              </span>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-check">
+
+            <div class="itv-check-mark">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                설치 가능 여부
+              </strong>
+
+              <span>
+                설치 주소에 원하는 통신사의 인터넷 설치가 가능한지 확인합니다.
+              </span>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-check">
+
+            <div class="itv-check-mark">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                필요한 인터넷 속도
+              </strong>
+
+              <span>
+                100Mbps · 500Mbps · 1Gbps 등 사용환경에 맞는 속도를 비교합니다.
+              </span>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-check">
+
+            <div class="itv-check-mark">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                TV 이용 여부
+              </strong>
+
+              <span>
+                IPTV와 필요한 채널구성, 셋톱박스 등을 확인합니다.
+              </span>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-check">
+
+            <div class="itv-check-mark">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                휴대폰 가족결합
+              </strong>
+
+              <span>
+                가족 휴대폰과 인터넷을 함께 결합할 수 있는지 확인합니다.
+              </span>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-check">
+
+            <div class="itv-check-mark">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                실제 가입조건
+              </strong>
+
+              <span>
+                설치비·약정·상품구성 등 가입 시점에 적용되는 조건을 확인합니다.
+              </span>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ======================================================
+         FAQ
+    ======================================================= -->
+
+    <section class="itv-section">
+
+      <div class="container">
+
+
+        <div class="itv-section-title">
+
+          <span class="itv-eyebrow">
+            자주 묻는 질문
+          </span>
+
+          <h2>
+            인터넷+TV 상담 FAQ
+          </h2>
+
+        </div>
+
+
+
+        <div class="itv-faq">
+
+
+          <div class="itv-faq-item">
+
+            <button
+              class="itv-faq-question"
+              type="button"
+            >
+
+              <span>
+                휴대폰과 인터넷·TV를 꼭 같이 가입해야 하나요?
+              </span>
+
+              <span class="itv-faq-plus">
+                +
+              </span>
+
+            </button>
+
+
+            <div class="itv-faq-answer">
+
+              꼭 같이 가입해야 하는 것은 아닙니다.
+              휴대폰만 또는 인터넷·TV만 따로 상담할 수도 있습니다.
+
+              다만 가족결합을 고려할 수 있다면
+              현재 휴대폰 통신사와 가족 회선을
+              함께 확인하는 것이 전체 통신비 비교에 도움이 됩니다.
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-faq-item">
+
+            <button
+              class="itv-faq-question"
+              type="button"
+            >
+
+              <span>
+                인터넷 속도는 어떻게 선택해야 하나요?
+              </span>
+
+              <span class="itv-faq-plus">
+                +
+              </span>
+
+            </button>
+
+
+            <div class="itv-faq-answer">
+
+              인터넷을 사용하는 사람 수,
+              연결하는 기기 수,
+              영상시청·게임·파일전송 등
+              주요 사용목적을 기준으로 선택하는 것이 좋습니다.
+
+              무조건 가장 빠른 상품을 선택하기보다
+              실제 사용환경에 맞는 속도를 비교하는 것이 중요합니다.
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-faq-item">
+
+            <button
+              class="itv-faq-question"
+              type="button"
+            >
+
+              <span>
+                가족결합을 잘 모르는데 상담할 수 있나요?
+              </span>
+
+              <span class="itv-faq-plus">
+                +
+              </span>
+
+            </button>
+
+
+            <div class="itv-faq-answer">
+
+              가능합니다.
+
+              현재 사용하는 휴대폰 통신사와
+              가족이 사용하는 회선 수,
+              현재 인터넷 통신사를
+              아는 범위만 알려주시면
+
+              비교해야 할 항목을
+              함께 확인할 수 있습니다.
+
+            </div>
+
+          </div>
+
+
+
+          <div class="itv-faq-item">
+
+            <button
+              class="itv-faq-question"
+              type="button"
+            >
+
+              <span>
+                광주 어느 지역에서 상담할 수 있나요?
+              </span>
+
+              <span class="itv-faq-plus">
+                +
+              </span>
+
+            </button>
+
+
+            <div class="itv-faq-answer">
+
+              휴대폰싸게파는사람들은
+              광주 수완지구에 오프라인 매장이 있으며
+
+              수완·첨단·하남·운남·월곡·비아 등
+              광주 전지역 고객을
+              동일한 기준으로 상담합니다.
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ======================================================
+         최종 상담
+    ======================================================= -->
+
+    <section class="itv-section">
+
+      <div class="container">
+
+
+        <div class="itv-final">
+
+
+          <div>
+
+            <h2>
+              인터넷+TV 조건이 복잡하면
+              함께 비교해드립니다.
+            </h2>
+
+            <p>
+
+              현재 휴대폰 통신사,
+              가족 회선,
+              인터넷 사용현황과
+              필요한 TV 구성을 알려주시면
+
+              비교해야 할 항목을
+              한 번에 확인할 수 있습니다.
+
+            </p>
+
+          </div>
+
+
+          <a
+            class="itv-btn-primary"
+            href="store.html"
+          >
+            상담 안내 보기
+          </a>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
   </main>
 
+
+
+  <!-- ========================================================
+       FOOTER
+  ========================================================= -->
+
   <footer>
-    <div class="container footer-grid">
-      <div>
-        <div class="logo">휴대폰<span>싸게파는사람들</span></div>
-        <p>광주에서 휴대폰, 인터넷+TV, 선불폰, 중고폰까지 한 번에 상담할 수 있는 오프라인 매장입니다.</p>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+
+        <div>
+
+          <div
+            class="logo"
+            style="color:white"
+          >
+            휴대폰<span>싸게파는사람들</span>
+          </div>
+
+          <p>
+
+            광주에서 휴대폰 구매,
+            인터넷·TV,
+            선불폰 비대면 개통,
+            중고폰까지
+
+            필요한 통신정보와 상담을 제공합니다.
+
+          </p>
+
+          <p>
+
+            정식 상호 :
+            휴대폰싸게파는사람들
+
+            <br>
+
+            매장 간판 :
+            공구폰
+
+          </p>
+
+        </div>
+
+
+
+        <div>
+
+          <b>
+            바로가기
+          </b>
+
+          <a href="guide/index.html">
+            구매가이드
+          </a>
+
+          <a href="gwangju/index.html">
+            광주 휴대폰 정보
+          </a>
+
+          <a href="internet-tv.html">
+            인터넷+TV
+          </a>
+
+          <a href="store.html">
+            매장안내
+          </a>
+
+        </div>
+
+
+
+        <div>
+
+          <b>
+            서비스
+          </b>
+
+          <a href="galaxy.html">
+            갤럭시
+          </a>
+
+          <a href="iphone.html">
+            아이폰
+          </a>
+
+          <a href="prepaid.html">
+            선불폰
+          </a>
+
+          <a href="usedphone.html">
+            중고폰
+          </a>
+
+        </div>
+
+
       </div>
 
-      <div>
-        <h4>바로가기</h4>
-        <a href="index.html">홈</a>
-        <a href="guide/index.html">구매가이드</a>
-        <a href="prepaid.html">선불폰</a>
-        <a href="store.html">매장안내 / 상담</a>
+
+
+      <div class="footer-bottom">
+
+        <small>
+
+          ©
+          <span data-year></span>
+          휴대폰싸게파는사람들.
+          All rights reserved.
+
+          · internet-tv v2.1
+
+        </small>
+
       </div>
 
-      <div>
-        <h4>상담 정보</h4>
-        <p>전화: 010-4191-1918</p>
-        <p>카카오채널: http://pf.kakao.com/_nQXxdn</p>
-        <p>주소: 광주광역시 광산구 장신로 134 1층 106호<br>정식 상호: 휴대폰싸게파는사람들 / 간판: 공구폰</p>
-      </div>
     </div>
 
-    <div class="container copyright">
-      <p>© <span data-year></span> 휴대폰싸게파는사람들. All rights reserved.</p>
-    </div>
   </footer>
 
+
+
+  <!-- 공통 설정 -->
+  <script src="assets/config.js"></script>
   <script src="assets/script.js"></script>
+
+
+  <!-- 인터넷 TV FAQ -->
   <script>
-    document.querySelectorAll('.faq-question').forEach((button) => {
-      button.addEventListener('click', () => {
-        const item = button.parentElement;
-        item.classList.toggle('open');
+
+    document
+      .querySelectorAll(
+        ".itv-faq-question"
+      )
+      .forEach(function(button){
+
+        button.addEventListener(
+          "click",
+          function(){
+
+            const item =
+              button.closest(
+                ".itv-faq-item"
+              );
+
+            item.classList.toggle(
+              "open"
+            );
+
+          }
+        );
+
       });
-    });
+
   </script>
+
+
 </body>
+
 </html>
